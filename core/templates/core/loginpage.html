@@ -1,0 +1,14 @@
+<html>
+<h1>Login</h1>
+
+<form method="POST" autocomplete="false">
+    {% csrf_token%}
+    <p>{{info}}</p>
+    
+
+    {{usercreds}}
+    <input type="submit" />
+</form>
+
+
+</html>
